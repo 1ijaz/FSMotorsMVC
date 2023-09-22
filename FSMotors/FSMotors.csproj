@@ -6,6 +6,83 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Home\blog.cshtml" />
+    <Content Remove="Views\Home\blogpost.cshtml" />
+    <Content Remove="Views\Home\contact.cshtml" />
+    <Content Remove="Views\Home\contact_process.cshtml" />
+    <Content Remove="Views\Home\demo.cshtml" />
+    <Content Remove="Views\Home\faq.cshtml" />
+    <Content Remove="Views\Home\index-2.cshtml" />
+    <Content Remove="Views\Home\index-footer-2.cshtml" />
+    <Content Remove="Views\Home\index-footer-3.cshtml" />
+    <Content Remove="Views\Home\index-footer-4.cshtml" />
+    <Content Remove="Views\Home\index-footer-5.cshtml" />
+    <Content Remove="Views\Home\index-footer-6.cshtml" />
+    <Content Remove="Views\Home\index-no-footer.cshtml" />
+    <Content Remove="Views\Home\inventory-2-listing-comparison.cshtml" />
+    <Content Remove="Views\Home\inventory-3-listing-comparison.cshtml" />
+    <Content Remove="Views\Home\inventory-4-listing-comparison.cshtml" />
+    <Content Remove="Views\Home\inventory-boxed-fullwidth.cshtml" />
+    <Content Remove="Views\Home\inventory-boxed-sidebar-left.cshtml" />
+    <Content Remove="Views\Home\inventory-boxed-sidebar-right.cshtml" />
+    <Content Remove="Views\Home\inventory-listing.cshtml" />
+    <Content Remove="Views\Home\inventory-wide-fullwidth.cshtml" />
+    <Content Remove="Views\Home\inventory-wide-sidebar-left.cshtml" />
+    <Content Remove="Views\Home\inventory-wide-sidebar-right.cshtml" />
+    <Content Remove="Views\Home\our-team.cshtml" />
+    <Content Remove="Views\Home\page-fullwidth.cshtml" />
+    <Content Remove="Views\Home\page-sidebar.cshtml" />
+    <Content Remove="Views\Home\portfolio-2-column-details.cshtml" />
+    <Content Remove="Views\Home\portfolio-2-column.cshtml" />
+    <Content Remove="Views\Home\portfolio-3-column-details.cshtml" />
+    <Content Remove="Views\Home\portfolio-3-column.cshtml" />
+    <Content Remove="Views\Home\portfolio-4-column-details.cshtml" />
+    <Content Remove="Views\Home\portfolio-4-column.cshtml" />
+    <Content Remove="Views\Home\portfolio-single-project-split.cshtml" />
+    <Content Remove="Views\Home\portfolio-single-project-wide.cshtml" />
+    <Content Remove="Views\Home\pricing-tables.cshtml" />
+    <Content Remove="Views\Home\service.cshtml" />
+    <Content Remove="Views\Home\services.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\blogpost.cshtml" />
+    <None Include="Views\Home\blog.cshtml" />
+    <None Include="Views\Home\contact.cshtml" />
+    <None Include="Views\Home\contact_process.cshtml" />
+    <None Include="Views\Home\demo.cshtml" />
+    <None Include="Views\Home\faq.cshtml" />
+    <None Include="Views\Home\index-2.cshtml" />
+    <None Include="Views\Home\index-footer-2.cshtml" />
+    <None Include="Views\Home\index-footer-3.cshtml" />
+    <None Include="Views\Home\index-footer-4.cshtml" />
+    <None Include="Views\Home\index-footer-5.cshtml" />
+    <None Include="Views\Home\index-footer-6.cshtml" />
+    <None Include="Views\Home\index-no-footer.cshtml" />
+    <None Include="Views\Home\inventory-2-listing-comparison.cshtml" />
+    <None Include="Views\Home\inventory-3-listing-comparison.cshtml" />
+    <None Include="Views\Home\inventory-4-listing-comparison.cshtml" />
+    <None Include="Views\Home\inventory-boxed-fullwidth.cshtml" />
+    <None Include="Views\Home\inventory-boxed-sidebar-left.cshtml" />
+    <None Include="Views\Home\inventory-boxed-sidebar-right.cshtml" />
+    <None Include="Views\Home\inventory-listing.cshtml" />
+    <None Include="Views\Home\inventory-wide-fullwidth.cshtml" />
+    <None Include="Views\Home\inventory-wide-sidebar-left.cshtml" />
+    <None Include="Views\Home\inventory-wide-sidebar-right.cshtml" />
+    <None Include="Views\Home\our-team.cshtml" />
+    <None Include="Views\Home\page-fullwidth.cshtml" />
+    <None Include="Views\Home\page-sidebar.cshtml" />
+    <None Include="Views\Home\portfolio-2-column-details.cshtml" />
+    <None Include="Views\Home\portfolio-2-column.cshtml" />
+    <None Include="Views\Home\portfolio-3-column-details.cshtml" />
+    <None Include="Views\Home\portfolio-3-column.cshtml" />
+    <None Include="Views\Home\portfolio-4-column-details.cshtml" />
+    <None Include="Views\Home\portfolio-4-column.cshtml" />
+    <None Include="Views\Home\portfolio-single-project-split.cshtml" />
+    <None Include="Views\Home\portfolio-single-project-wide.cshtml" />
+    <None Include="Views\Home\pricing-tables.cshtml" />
+    <None Include="Views\Home\service.cshtml" />
+    <None Include="Views\Home\services.cshtml" />
     <None Include="wwwroot\js\site.js" />
   </ItemGroup>
 
