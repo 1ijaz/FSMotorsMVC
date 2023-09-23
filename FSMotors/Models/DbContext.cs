@@ -1,6 +1,7 @@
 ﻿using FSMotors.Models;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace BankTransactions.Models
 {
     public class DbContext: Microsoft.EntityFrameworkCore.DbContext
