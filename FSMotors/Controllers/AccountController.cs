@@ -8,10 +8,12 @@ namespace FSMotors.Controllers
 {
     public class AccountController : Controller
     {
+        //login method
         public IActionResult Login()
         {
             return View();
         }
+        //Register method
         public IActionResult Register()
         {
             return View();
