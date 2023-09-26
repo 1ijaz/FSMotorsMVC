@@ -1,3 +1,4 @@
+using FSMotors.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,7 +27,7 @@ namespace FSMotors
         {
             services.AddControllersWithViews();
             //DI for DbContext
-            services.AddDbContext<DbContext>(options =>
+            services.AddDbContext<FSDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
         }
 
